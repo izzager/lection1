@@ -10,6 +10,6 @@ public class Main {
     }
 
     private static void test() {
-        throw new MyCustomExpection();
+        System.out.println("test");
     }
 }
