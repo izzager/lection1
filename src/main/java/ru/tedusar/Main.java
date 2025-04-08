@@ -10,6 +10,6 @@ public class Main {
     }
 
     private static void test() {
-        System.out.println("ABCCOEJCEJIOR");
+        System.out.println("1");
     }
 }
