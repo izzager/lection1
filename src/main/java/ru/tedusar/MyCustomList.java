@@ -1,4 +1,4 @@
-package ru.tedusar.abc;
+package ru.tedusar;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -8,6 +8,10 @@ import java.util.function.IntFunction;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
+// Здесь показано, что мы можем сам делать свои реализации коллекций,
+// имплементируя (то есть описывая реализацию) интерфейса Collection.
+// Интерфейс = контракт, который описывает, какие методы должны быть реализованы в классе.
+// Реализация же методов находится в классе (MyCustomList), который реализует интерфейс (Collection).
 public class MyCustomList implements Collection<String> {
     @Override
     public int size() {
